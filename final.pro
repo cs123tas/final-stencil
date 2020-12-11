@@ -22,16 +22,88 @@ win32 {
 }
 
 SOURCES += ui/mainwindow.cpp \
+    ParticleGenerator/particlegenerator.cpp \
+    camera/CamtransCamera.cpp \
+    camera/OrbitingCamera.cpp \
+    camera/QuaternionCamera.cpp \
+    gl/openglshape.cpp \
+    scenegraph/OpenGLScene.cpp \
+    scenegraph/Scene.cpp \
+    scenegraph/SceneviewScene.cpp \
+    shapes/drawer.cpp \
+    ui/Settings.cpp \
+    L_System/turtle.cpp \
     main.cpp \
     glew-1.10.0/src/glew.c \
+    ui/SupportCanvas3D.cpp \
     ui/view.cpp \
-    ui/viewformat.cpp
+    ui/viewformat.cpp \
+    ui/Databinding.cpp \
+    L_System/Utils.cpp \
+    gl/shaders/Shader.cpp \
+    gl/GLDebug.cpp \
+    gl/datatype/VBOAttribMarker.cpp \
+    gl/datatype/VBO.cpp \
+    gl/datatype/IBO.cpp \
+    gl/datatype/VAO.cpp \
+    gl/datatype/FBO.cpp \
+    gl/textures/Texture.cpp \
+    gl/textures/Texture2D.cpp \
+    gl/textures/TextureParameters.cpp \
+    gl/textures/TextureParametersBuilder.cpp \
+    gl/textures/RenderBuffer.cpp \
+    gl/textures/DepthBuffer.cpp \
+    gl/shaders/CS123Shader.cpp \
+    gl/util/FullScreenQuad.cpp \
+    shapes/Shape.cpp \
+    shapes/Cylinder.cpp \
+    lib/RGBA.cpp \
+    lib/ResourceLoader.cpp
 
 HEADERS += ui/mainwindow.h \
+    ParticleGenerator/particlegenerator.h \
+    camera/Camera.h \
+    camera/CamtransCamera.h \
+    camera/OrbitingCamera.h \
+    camera/QuaternionCamera.h \
+    gl/openglshape.h \
+    scenegraph/OpenGLScene.h \
+    scenegraph/RayScene.h \
+    scenegraph/Scene.h \
+    scenegraph/SceneviewScene.h \
+    scenegraph/ShapesScene.h \
+    shapes/drawer.h \
+    ui/Settings.h \
+    L_System/Utils.h \
+    L_System/turtle.h \
+    ui/SupportCanvas3D.h \
     ui_mainwindow.h \
     glew-1.10.0/include/GL/glew.h \
     ui/view.h \
-    ui/viewformat.h
+    ui/viewformat.h \
+    ui/Databinding.h \
+    gl/shaders/Shader.h \
+    gl/GLDebug.h \
+    gl/shaders/ShaderAttribLocations.h \
+    gl/datatype/VBOAttribMarker.h \
+    gl/datatype/VBO.h \
+    gl/datatype/IBO.h \
+    gl/datatype/VAO.h \
+    gl/datatype/FBO.h \
+    gl/textures/Texture.h \
+    gl/textures/Texture2D.h \
+    gl/textures/TextureParameters.h \
+    gl/textures/TextureParametersBuilder.h \
+    gl/textures/RenderBuffer.h \
+    gl/textures/DepthBuffer.h \
+    gl/shaders/CS123Shader.h \
+    gl/util/FullScreenQuad.h \
+    shapes/Shape.h \
+    shapes/Cylinder.h \
+    lib/RGBA.h \
+    lib/ResourceLoader.h \
+    lib/CS123SceneData.h \
+    lib/common.h
 
 FORMS += ui/mainwindow.ui
 INCLUDEPATH += glm ui glew-1.10.0/include
@@ -41,7 +113,16 @@ DEFINES += _USE_MATH_DEFINES
 DEFINES += TIXML_USE_STL
 DEFINES += GLM_SWIZZLE GLM_FORCE_RADIANS
 OTHER_FILES += shaders/shader.frag \
-    shaders/shader.vert
+    shaders/shader.vert \
+    shaders/wireframe/wireframe.vert \
+    shaders/normals/normals.vert \
+    shaders/normals/normals.gsh \
+    shaders/normals/normals.frag \
+    shaders/normals/normalsArrow.vert \
+    shaders/normals/normalsArrow.gsh \
+    shaders/normals/normalsArrow.frag \
+    shaders/skybox.frag \
+    shaders/skybox.vert
 
 # Don't add the -pg flag unless you know what you are doing. It makes QThreadPool freeze on Mac OS X
 QMAKE_CXXFLAGS_RELEASE -= -O2
@@ -70,4 +151,12 @@ DISTFILES += \
     shaders/normals/normals.gsh \
     shaders/normals/normalsArrow.gsh \
     shaders/normals/normalsArrow.frag \
-    shaders/normals/normalsArrow.vert
+    shaders/normals/normalsArrow.vert \
+    shaders/particles/particles_draw.frag \
+    shaders/particles/particles_draw.vert \
+    shaders/particles/particles_update.frag \
+    shaders/particles/quad.vert \
+    shaders/wireframe/wireframe.frag \
+    shaders/wireframe/wireframe.vert \
+    shaders/skybox.frag \
+    shaders/skybox.vert

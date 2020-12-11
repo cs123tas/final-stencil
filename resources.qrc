@@ -2,5 +2,27 @@
     <qresource prefix="/shaders">
         <file alias="default.frag">shaders/shader.frag</file>
         <file alias="default.vert">shaders/shader.vert</file>
+        <file alias="normals.vert">shaders/normals/normals.vert</file>
+        <file alias="normalsArrow.gsh">shaders/normals/normalsArrow.gsh</file>
+        <file alias="normalsArrow.frag">shaders/normals/normalsArrow.frag</file>
+        <file alias="normals.gsh">shaders/normals/normals.gsh</file>
+        <file alias="normals.frag">shaders/normals/normals.frag</file>
+        <file alias="normalsArrow.vert">shaders/normals/normalsArrow.vert</file>
+        <file alias="wireframe.frag">shaders/wireframe/wireframe.frag</file>
+        <file alias="wireframe.vert">shaders/wireframe/wireframe.vert</file>
+        <file alias="particles_draw.frag">shaders/particles/particles_draw.frag</file>
+        <file alias="particles_draw.vert">shaders/particles/particles_draw.vert</file>
+        <file alias="particles_update.frag">shaders/particles/particles_update.frag</file>
+        <file alias="quad.vert">shaders/particles/quad.vert</file>
+        <file alias="skybox.frag">shaders/skybox.frag</file>
+        <file alias="skybox.vert">shaders/skybox.vert</file>
+    </qresource>
+    <qresource prefix="/skybox">
+        <file>images/negx.jpg</file>
+        <file>images/negy.jpg</file>
+        <file>images/negz.jpg</file>
+        <file>images/posx.jpg</file>
+        <file>images/posy.jpg</file>
+        <file>images/posz.jpg</file>
     </qresource>
 </RCC>
