@@ -280,7 +280,7 @@ partner contributes to the project.
 There are many ways you can start the final project. You can start
 from any of the lab stencil codes or the project repo if you find
 them useful for the features you want to implement. For example
-Lab 5 or Lab 7 is a good starting point if all you need is a basic
+Lab 5 or Lab 6 is a good starting point if all you need is a basic
 shader program with/without FBOs. Besides that, we also provide
 an optional starter code for this project, which you can obtain either
 through the Github Classroom assignment or by running:
@@ -290,7 +290,7 @@ git clone https://github.com/cs123tas/final-stencil.git
 ```
 
 The starter code creates an OpenGL window with mouse and keyboard input events using Qt. It’s also recommended that you copy
-your gl directory from your lab07 into the support code. Once
+your gl directory from your lab06 into the support code. Once
 again, feel free to augment the support code.
 
 Here’s also a general guideline to start.
