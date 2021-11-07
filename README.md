@@ -51,7 +51,7 @@ final project to look like. Feel free to include multiple ideas.)
 - Technical features you plan to implement. (Possible options for
 features are listed below.)
 
-- A public Github repo link (can be empty, a clone of the stencil code or using the Github Classroom assignment) If you want your Github repository to be private, you will need to add the HTAs as collaborators (and your mentor TA when you are assigned one). Submit your project proposal with the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdZvFYnTE-iSV51DftaD_8joTQNNiA6j-7FCYTfP4CTZvmxIA/viewform?usp=sf_link).
+- A public Github repo link (can be empty, a clone of the [stencil code](https://github.com/cs123tas/final-stencil) or using the [Github Classroom assignment](https://classroom.github.com/a/dNb58kXq)) If you want your Github repository to be private, you will need to add the HTAs as collaborators (and your mentor TA when you are assigned one). Submit your project proposal with the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdZvFYnTE-iSV51DftaD_8joTQNNiA6j-7FCYTfP4CTZvmxIA/viewform?usp=sf_link).
 
 <b>Mentor TAs</b>. Your group will be assigned a mentor TA shortly
 after proposals are handed in. This TA will be your go-to resource
