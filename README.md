@@ -3,7 +3,7 @@
 ### Introduction to Computer Graphics, Fall 2021
 
 
-## 1 Introduction
+## Introduction
 
 This fall, we’ve surveyed a number of topics in computer graphics to
 give you a broad introduction to the field. Now, we’re giving you
@@ -20,7 +20,7 @@ Forms to preserve Gradescope anonymity.
 
 
 
-## 2 Groups
+## Groups
 
 The final project is traditionally done in groups of 2-4 students with
 the help of a mentor TA. You may work in a group by yourself, and
@@ -38,7 +38,7 @@ The deadline to submit this form is Monday, 11/15 at 11:59 p.m.
 EST, and we will email you and your group members ASAP
 
 
-## 3 Requirements
+## Requirements
 
 <b>Project Proposals</b>. Your group must submit a project proposal
 by Tuesday, 11/23 at 11:59 p.m. EST. This should include:
@@ -108,12 +108,9 @@ also great! Discuss with your mentor TA or one of the HTAs to see
 whether your idea meets the expectations.
 Here are some ideas for technical features you might implement.
 However you can choose to do anything in the realm of graphics
-(both 3D or 2D projects are acceptable). This link has compiled
+(both 3D or 2D projects are acceptable). This [link](https://kesen.realtimerendering.com/) has compiled
 SIGGRAPH papers by year and by category, and Daniel and many
-of the TAs are great resources to bounce ideas off of. We also highly
-recommend you attend the Final Project Gear Up which will talk
-more generally about what we expect as well as include specific
-examples and demos of final projects from previous years.
+of the TAs are great resources to bounce ideas off of.
 
 - Bump mapping or displacement mapping (not both) with ability
 to enable/disable
@@ -167,7 +164,7 @@ etc.
 a minimum of 24 frames per second. This doesn’t apply to you if
 your project does not call for the use of OpenGL or CUDA to render
 in any way. If it is impossible for your project (e.g. more complex
-simulations) to run in real-time but you would still like to demo it as a video, you can use a tool called ffmpeg to make a video from
+simulations) to run in real-time but you would still like to demo it as a video, you can use a tool called [ffmpeg](https://stackoverflow.com/questions/24961127/how-to-create-a-video-from-images-with-ffmpeg) to make a video from
 images grabbed from the framebuffer
 
 <b>Offline graphics</b>. Another option is to render a cool image / animation sequence using offline graphics.
@@ -186,8 +183,8 @@ brief 3-5 minute presentation explaining what you did and showing
 your implementation to the class. Again, we ask each team to record
 their demo ahead of time with a screen-recording application and
 submit it via this [form](https://docs.google.com/forms/d/e/1FAIpQLSdFPUqWM_5_cC89hLj1AFjJ753wmWdCAqdXRZK-woz_YVjR2A/viewform?usp=sf_link) before the presentation day. If you are not
-able to make it to the class due to conflicts or
-time zone difficulties, you can also pre-record your presentation and
+able to make it to the class due to conflicts,
+time zone difficulties, or travel plans, you can also pre-record your presentation and
 submit it ahead of time.
 
 <b>Implementation</b>. This project must be implemented in C++ and
@@ -222,16 +219,11 @@ on each other and the surface they are on. You might want to
 apply a texture map to the surface and include a skybox or a
 fog in the distance.
 
-You can also check out some past final projects on CS1230’s YouTube
-channel or our other Youtube channel (We have no clue why there
+You can also check out some past final projects on CS1230’s [YouTube
+channel](https://www.youtube.com/channel/UCGNsmYJfDhLMgmAp6VJ_suw/videos) or our other [Youtube channel](https://www.youtube.com/channel/UCyFsTjzWjJ5AkbpcN2ZZ7dA/videos) (We have no clue why there
 is two).
 
-## 4 Timeline/Due Dates
-
-Other than the early and final demo day, these due dates are fairly
-flexible. If you need more time figuring out your group members
-or finalizing your project proposal that is fine as long as you stay
-roughly on track.
+## Timeline/Due Dates
 
 - By Monday, 11/15 at 11:59 p.m. EST: Form groups. Submit the
 teammate matching [form](https://docs.google.com/forms/d/e/1FAIpQLSdA3AgdyY9TzdxqfcQjUM2lnHrs8RDrgrOu2aX4gRAzv_ZckQ/viewform?usp=sf_link) if you have not found/do not expect
@@ -248,10 +240,11 @@ recorded and submitted via this [form](https://docs.google.com/forms/d/e/1FAIpQL
 on Thursday, 12/16 at 10:30 a.m. EST.
 
 
-## 5 Grading
+## Grading
 
 Your grade for this project will be determined by several factors.
-Technical excellence. How well did you accomplish what you set
+
+<b>Technical</b> excellence. How well did you accomplish what you set
 out to do? Is your implementation stable (i.e. bug free and does
 not crash)? Does your project represent a significant, yet reasonable
 extension on the topics covered in the labs and assignments? We
@@ -281,7 +274,7 @@ we are using Github this year we will be able to see how much each
 partner contributes to the project.
 
 
-## 5 Where do I start?
+## Where do I start?
 
 There are many ways you can start the final project. You can start
 from any of the lab stencil codes or the project repo if you find
@@ -305,8 +298,7 @@ Here’s also a general guideline to start.
 interesting papers and general resources. Take a look at the
 CS1230 Youtube channel for inspiration. There are great examples of really good final projects from past years. There are also
 amazing projects on Shadertoy that implement cool features.
-Also, (do not) ask the TAs about VR/AR projects (for this year
-only)!
+Also, ask the TAs about VR/AR projects!
 - Form groups of two or three. Discuss your ideas for potential
 themes / features that you’d like to implement. Try to find
 teammates that are interested in the same theme as you!
@@ -321,7 +313,7 @@ together!
 This should give you a good idea of where to start, but feel free to
 ask the TAs / your mentor TA if you run into any other questions!
 
-## 7 Handing In
+## Handing In
 
 To hand in all you’ll need to do is submit your project proposal
 and final demo video, which we will use to help grade your final
@@ -330,7 +322,7 @@ use the program and details any bugs or known issues. Make sure
 you thoroughly test and debug your program to make sure it does
 not crash or behave unexpectedly.
 
-## 8 The "Oh God Nothing Is Working" FAQ
+## The "Oh God Nothing Is Working" FAQ
 
 Many final projects will make use of OpenGL, so here is a list
 of common issues students may find when working on their own
@@ -341,23 +333,23 @@ When programming in OpenGL, sometimes you’ll get a black screen.
 There are a number of causes for this, including but not limited to:
 
 - Drawing triangles clockwise instead of counter-clockwise
-    - To debug, try reversing the winding order or using glDisable(GL_CULL)
+    - To debug, try reversing the winding order or using `glDisable(GL_CULL)`
 - Camera facing the wrong direction, or near/far planes don’t
 contain object being rendered
     - To debug, try configuring your camera so you can view a
 single triangle in the center of the world
 - Data being sent incorrectly to the GPU
-    - You might see a black screen if your arguments in glVertexAttribPointer, glBufferData, or glDrawArrays don’t match the size or organization of your VBO. It’s also worth triple
-checking your uniforms. Try simplifying by rendering a
-single triangle.
+    - You might see a black screen if your arguments in `glVertexAttribPointer`, `glBufferData`, or `glDrawArrays` don’t match the size or organization of your VBO. It’s also worth triple
+    checking your uniforms. Try simplifying by rendering a
+    single triangle.
 - Lights misconfigured, or incorrect normal vectors
-    - To debug, try setting glClearColor to any color but black.
-Alternatively, try having your fragment shader output a
-solid, bright color. It’s possible your objects are appearing,
-but being shaded in all black due to issues with lighting.
+    - To debug, try setting `glClearColor` to any color but black.
+    Alternatively, try having your fragment shader output a
+    solid, bright color. It’s possible your objects are appearing,
+    but being shaded in all black due to issues with lighting.
 - General tip: if you’re having troubles with complex shapes, just
 try drawing one triangle and see if you can get that to render,
-and build from there. As always, you can post on piazza or
+and build from there. As always, you can post on ED or
 contact your mentor TA if you’re really struggling and you’ve
 already tried all of these things.
 
