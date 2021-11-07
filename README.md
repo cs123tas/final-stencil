@@ -244,7 +244,7 @@ on Thursday, 12/16 at 10:30 a.m. EST.
 
 Your grade for this project will be determined by several factors.
 
-<b>Technical</b> excellence. How well did you accomplish what you set
+<b>Technical excellence.</b> How well did you accomplish what you set
 out to do? Is your implementation stable (i.e. bug free and does
 not crash)? Does your project represent a significant, yet reasonable
 extension on the topics covered in the labs and assignments? We
