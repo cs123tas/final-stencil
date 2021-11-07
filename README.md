@@ -53,6 +53,8 @@ features are listed below.)
 
 - A public Github repo link (can be empty, a clone of the [stencil code](https://github.com/cs123tas/final-stencil) or using the [Github Classroom assignment](https://classroom.github.com/a/dNb58kXq)) If you want your Github repository to be private, you will need to add the HTAs as collaborators (and your mentor TA when you are assigned one). Submit your project proposal with the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdZvFYnTE-iSV51DftaD_8joTQNNiA6j-7FCYTfP4CTZvmxIA/viewform?usp=sf_link).
 
+<b>NOTE!</b> This project can be started using many diffent things from labs done throughout the semester, the stencil code, to a blank repository. The stencil code is there to help most real-time projects get a start however it does not have to be used.
+
 <b>Mentor TAs</b>. Your group will be assigned a mentor TA shortly
 after proposals are handed in. This TA will be your go-to resource
 when working on your final project. If you have any questions, you
@@ -161,12 +163,16 @@ seen in the assignments that you can easily add to your project.
 - Procedural geometric shapes like cone, cube, sphere, cylinder,
 etc.
 
-<b>Real-time</b>. Most projects should be able to run in real-time, i.e. at
+<b>Real-time</b>. If you plan to use real-time rendering your project should run at
 a minimum of 24 frames per second. This doesn’t apply to you if
 your project does not call for the use of OpenGL or CUDA to render
 in any way. If it is impossible for your project (e.g. more complex
 simulations) to run in real-time but you would still like to demo it as a video, you can use a tool called ffmpeg to make a video from
 images grabbed from the framebuffer
+
+<b>Offline graphics</b>. Another option is to render a cool image / animation sequence using offline graphics.
+This can extend your raytracer or, if contributions are on the modeling/animation side, use an
+existing offline renderer (e.g. Arnold, Blender Cycles).
 
 <b>Non-Graphics Features</b>. Although we will appreciate and enjoy
 any additional features you choose to add to your project, we are
