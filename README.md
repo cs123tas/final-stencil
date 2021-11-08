@@ -30,7 +30,7 @@ combine different skill sets, talk through more difficult concepts and
 divide the initial overhead of getting something to just work.
 
 <b>Finding Teammates</b>. If you wish to work in a group and are
-looking for teammates, we encourage you post in on the "Finding final project groups" Ed thread with proposal ideas/features you are
+looking for teammates, we encourage you post in on the "[Finding final project groups](https://edstem.org/us/courses/12828/discussion/812015)" Ed thread with proposal ideas/features you are
 interested in and form groups with other people who are match your
 interests. Otherwise, you can also fill out [this](https://docs.google.com/forms/d/e/1FAIpQLSdA3AgdyY9TzdxqfcQjUM2lnHrs8RDrgrOu2aX4gRAzv_ZckQ/viewform?usp=sf_link) form, and we will do
 our best to match you with other classmates with similar interests.
