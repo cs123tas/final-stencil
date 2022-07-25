@@ -51,7 +51,7 @@ final project to look like. Feel free to include multiple ideas.)
 - Technical features you plan to implement. (Possible options for
 features are listed below.)
 
-- A public Github repo link (can be empty, a clone of the [stencil code](https://github.com/cs123tas/final-stencil) or using the [Github Classroom assignment](https://classroom.github.com/a/dNb58kXq)) If you want your Github repository to be private, you will need to add the HTAs as collaborators (and your mentor TA when you are assigned one). Submit your project proposal with the Google form [here](https://docs.google.com/forms/d/e/1FAIpQLSdZvFYnTE-iSV51DftaD_8joTQNNiA6j-7FCYTfP4CTZvmxIA/viewform?usp=sf_link).
+- A public Github repo link (can be empty, a clone of the [stencil code](https://github.com/cs123tas/final-stencil) or using the [Github Classroom assignment](https://classroom.github.com/a/dNb58kXq)) If you want your Github repository to be private, you will need to add the HTAs as collaborators (and your mentor TA when you are assigned one). Submit your project proposal with the Google form [here](https://forms.gle/fVN1B3ZG2Corqgxz5).
 
 <b>NOTE!</b> This project can be started using many diffent things from labs done throughout the semester, the stencil code, to a blank repository. The stencil code is there to help most real-time projects get a start however it does not have to be used.
 
@@ -229,7 +229,7 @@ is two).
 teammate matching [form](https://docs.google.com/forms/d/e/1FAIpQLSdA3AgdyY9TzdxqfcQjUM2lnHrs8RDrgrOu2aX4gRAzv_ZckQ/viewform?usp=sf_link) if you have not found/do not expect
 to find a group.
 - By Tuesday, 11/23 at 11:59 p.m. EST: Project proposals
-submitted via this [form](https://docs.google.com/forms/d/e/1FAIpQLSdZvFYnTE-iSV51DftaD_8joTQNNiA6j-7FCYTfP4CTZvmxIA/viewform?usp=sf_link).
+submitted via this [form](https://forms.gle/fVN1B3ZG2Corqgxz5).
 - By Tuesday, 11/30 at 11:59 p.m. EST: Meet with mentor TA
 for design check (make sure to finalize and upload your project
 plans before this meeting).
